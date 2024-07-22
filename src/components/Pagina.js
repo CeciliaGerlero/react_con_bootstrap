@@ -38,30 +38,25 @@ function Pagina() {
       </Navbar>
 
 
-      
+
 
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
-          {/* <ExampleCarouselImage text="First slide" /> */}
-
           <img style={{ maxHeight: "100vh" }} className="d-block w-100" src={img01} alt="First slide" />
-          {/* <img style={{ maxHeight: "100vh" }} className="d-block w-100" src={img02} alt="First slide" />
-          <img style={{ maxHeight: "100vh" }} className="d-block w-100" src={img03} alt="First slide" /> */}
-
           <Carousel.Caption>
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          {/* <ExampleCarouselImage text="Second slide" /> */}
+          <img style={{ maxHeight: "100vh" }} className="d-block w-100" src={img02} alt="First slide" />
           <Carousel.Caption>
             <h3>Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          {/* <ExampleCarouselImage text="Third slide" /> */}
+          <img style={{ maxHeight: "100vh" }} className="d-block w-100" src={img03} alt="First slide" />
           <Carousel.Caption>
             <h3>Third slide label</h3>
             <p>
